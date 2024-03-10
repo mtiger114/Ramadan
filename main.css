@@ -8,9 +8,6 @@ body {
   font-family: "Open Sans", sans-serif;
   background-image: radial-gradient(circle at center, #ffffff, #fafdba);
   min-height: 36vh;
-  /* background-image: url(./r1.jpg);
-  background-color: #333;
-  background-size: cover; */
   color: #333;
   font-weight: 600;
   display: flex;
@@ -26,9 +23,6 @@ body {
 }
 
 .mi {
-  --openText: "🌙";
-  --altText: "";
-  --img: url("./imgs/r3.jpg");
   position: relative;
   width: 20em;
   height: 10em;
@@ -38,6 +32,9 @@ body {
   transition: transform 0.5s 0s;
   transform-style: preserve-3d;
   perspective: 40em;
+  --openText:"🌙";
+  --altText:"";
+  --img:url("./imgs/r3.jpg");
 }
 .mi-outer {
   filter: drop-shadow(0.4em 0.2em 1em rgba(0, 0, 0, 0.2));
