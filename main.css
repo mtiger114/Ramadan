@@ -28,7 +28,7 @@ body {
 .mi {
   --openText: "🌙";
   --altText: "";
-  --img: url("./r2.jpg");
+  --img: url("./imgs/r2.jpg");
   position: relative;
   width: 20em;
   height: 10em;
