@@ -6,13 +6,13 @@
 body {
   direction: rtl;
   font-family: "Open Sans", sans-serif;
-  /* background-image: radial-gradient(circle at center, #fff, #aaa); */
-  /* min-height: 36vh; */
-  background-image: url(./r1.jpg);
+  background-image: radial-gradient(circle at center, #fff, #aaa);
+  min-height: 36vh;
+  /* background-image: url(./r1.jpg);
   background-color: #333;
+  background-size: cover; */
   color: #333;
   font-weight: 600;
-  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
